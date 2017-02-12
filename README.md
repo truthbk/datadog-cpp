@@ -4,7 +4,7 @@ Datadog C++ Statsd Client Library
 Tested on Linux and OSX.
 
 ## Buiild
-The build requires a C++11 compiler.
+The build requires a C++11 compiler and `cmake (>=3.1.0)`.
 ```
 cmake .
 make
