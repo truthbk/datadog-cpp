@@ -7,7 +7,7 @@
 #include <vector>
 #include <mutex>
 
-namespace trace {
+namespace datadog {
 
   const std::string default_dog_host = "127.0.0.1";
   const uint32_t default_dog_port = 8125;

@@ -1,4 +1,4 @@
-#include<arpa/inet.h>
+#include <arpa/inet.h>
 #include <unistd.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -21,7 +21,7 @@
 
 #include "trace_dogstatsd.hpp"
 
-namespace trace {
+namespace datadog {
 
   Dogstatsd::Dogstatsd(std::vector<std::string> tags) 
     : Dogstatsd(false, tags) { }
